@@ -17,19 +17,21 @@
  *
  * @package WordPress
  */
+require_once 'credentials.php';
+$cred_env = ($_SERVER['HTTP_HOST'] == 'someshop.loc') ? 'dev' : 'prod';
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'someshop' );
+define( 'DB_NAME', $cred[$cred_env]['db_name']);
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', $cred[$cred_env]['db_user']);
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', $cred[$cred_env]['db_password']);
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', $cred[$cred_env]['db_host']);
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

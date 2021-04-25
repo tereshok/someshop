@@ -1,1 +1,15 @@
-// @import "file";
+@import "components/reset";
+@import "components/normalize";
+@import "~bootstrap/scss/bootstrap";
+@import "components/header";
+@import "components/footer";
+@import "components/search";
+@import "components/archive";
+@import "components/tags";
+@import "components/categories";
+@import "components/sidebar";
+@import "components/single";
+@import "components/page";
+@import "components/fonts";
+@import "components/home";
+@import "~font-awesome/scss/font-awesome";
