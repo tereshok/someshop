@@ -1,0 +1,70 @@
+.sidebar_main .widget {
+  background: #fbf9ff;
+  padding: 30px;
+  margin: 0 0 30px;
+}
+
+.sidebar_main {
+  h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 500;
+
+    &::after {
+      content: "";
+      display: block;
+      padding-top: 15px;
+      border-bottom: 1px solid #f0e9ff;
+    }
+  }
+
+  li {
+    border-bottom: 1px solid #f0e9ff;
+    padding: 15px 0;
+
+    a {
+      color: #666;
+
+      &:hover {
+        text-decoration: none;
+        color: #ff3368;
+      }
+    }
+  }
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+.search-field {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #f0e9ff;
+  font-size: 13px;
+  color: #999;
+  padding: 0 0 0 20px;
+}
+
+.search-submit {
+  width: 300px;
+  padding: 15px 0;
+  background: #ff3368;
+  color: #fff;
+  border: 1px solid #edeff2;
+  text-transform: uppercase;
+}
+
+.widget_tag_cloud .tagcloud a {
+  border: 1px solid #eee;
+  background: #fff;
+  color: #666;
+  padding: 4px 20px;
+  font-size: 13px !important;
+
+  &:hover {
+    background-color: #ff3368;
+    color: #fff;
+    text-decoration: none;
+  }
+}

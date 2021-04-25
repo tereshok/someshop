@@ -1,0 +1,41 @@
+.single_section {
+  padding: 100px 0 0;
+
+  .single_img img {
+    height: 100%;
+    max-width: 730px;
+  }
+
+  .single_category {
+    color: #666;
+
+    a {
+      color: #666;
+
+      &:hover {
+        color: #ff3368;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .single_tags {
+    color: #666;
+    padding-top: 15px;
+    border-top: 1px solid #f0e9ff;
+
+    a {
+      border: 1px solid #eee;
+      background: #fff;
+      color: #666;
+      padding: 4px 20px;
+      font-size: 13px !important;
+
+      &:hover {
+        background-color: #ff3368;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
