@@ -1,3 +1,5 @@
+@import "variables";
+
 .footer_widget {
   padding: 30px 0;
 
@@ -12,10 +14,10 @@
   }
 
   a {
-    color: #666;
+    color: $font_grey;
 
     &:hover {
-      color: #ff3368;
+      color: $item_color;
       text-decoration: none;
     }
   }
@@ -29,12 +31,12 @@
     display: inline-flex;
 
     a {
-      color: #7f7f7f;
+      color: $font_grey;
       padding: 5px 11px;
 
       &:hover {
-        background-color: #ff3368;
-        color: #fff;
+        background-color: $item_color;
+        color: $font_white;
         text-decoration: none;
       }
     }

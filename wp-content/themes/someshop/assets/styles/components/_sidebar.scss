@@ -1,5 +1,7 @@
+@import "variables";
+
 .sidebar_main .widget {
-  background: #fbf9ff;
+  background: $widget_bg;
   padding: 30px;
   margin: 0 0 30px;
 }
@@ -14,20 +16,20 @@
       content: "";
       display: block;
       padding-top: 15px;
-      border-bottom: 1px solid #f0e9ff;
+      border-bottom: 1px solid $widget_item;
     }
   }
 
   li {
-    border-bottom: 1px solid #f0e9ff;
+    border-bottom: 1px solid $widget_item;
     padding: 15px 0;
 
     a {
-      color: #666;
+      color: $font_grey;
 
       &:hover {
         text-decoration: none;
-        color: #ff3368;
+        color: $item_color;
       }
     }
   }
@@ -40,31 +42,31 @@
 .search-field {
   width: 300px;
   height: 50px;
-  border: 1px solid #f0e9ff;
+  border: 1px solid $widget_item;
   font-size: 13px;
-  color: #999;
+  color: $font_grey;
   padding: 0 0 0 20px;
 }
 
 .search-submit {
   width: 300px;
   padding: 15px 0;
-  background: #ff3368;
-  color: #fff;
-  border: 1px solid #edeff2;
+  background: $item_color;
+  color: $font_white;
+  border: 1px solid $widget_item;
   text-transform: uppercase;
 }
 
 .widget_tag_cloud .tagcloud a {
-  border: 1px solid #eee;
-  background: #fff;
-  color: #666;
+  border: 1px solid $widget_item;
+  background: $font_white;
+  color: $font_grey;
   padding: 4px 20px;
   font-size: 13px !important;
 
   &:hover {
-    background-color: #ff3368;
-    color: #fff;
+    background-color: $item_color;
+    color: $font_white;
     text-decoration: none;
   }
 }

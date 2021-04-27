@@ -1,3 +1,5 @@
+@import "variables";
+
 .blog_section {
   padding: 100px 0 0;
 }
@@ -6,10 +8,10 @@
   padding: 20px 0;
 
   a {
-    color: #000;
+    color: $font_dark;
 
     &:hover {
-      color: #ff3368;
+      color: $item_color;
       text-decoration: none;
     }
 
@@ -27,8 +29,8 @@
   justify-content: center;
 
   img {
-    max-width: 750px;
-    height: 100%;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -37,13 +39,13 @@
   box-shadow: 0 10px 20px 0 #dddddd5c;
 
   .blog_category {
-    color: #666;
+    color: $font_grey;
 
     a {
-      color: #666;
+      color: $font_grey;
 
       &:hover {
-        color: #ff3368;
+        color: $item_color;
       }
     }
   }

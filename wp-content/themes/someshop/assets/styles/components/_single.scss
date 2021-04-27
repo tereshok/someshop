@@ -1,39 +1,41 @@
+@import "variables";
+
 .single_section {
   padding: 100px 0 0;
 
   .single_img img {
-    height: 100%;
-    max-width: 730px;
+    width: 100%;
+    height: auto;
   }
 
   .single_category {
-    color: #666;
+    color: $font_grey;
 
     a {
-      color: #666;
+      color: $font_grey;
 
       &:hover {
-        color: #ff3368;
+        color: $item_color;
         text-decoration: none;
       }
     }
   }
 
   .single_tags {
-    color: #666;
+    color: $font_grey;
     padding-top: 15px;
-    border-top: 1px solid #f0e9ff;
+    border-top: 1px solid $widget_item;
 
     a {
-      border: 1px solid #eee;
-      background: #fff;
-      color: #666;
+      border: 1px solid $widget_item;
+      background: $font_white;
+      color: $font_grey;
       padding: 4px 20px;
       font-size: 13px !important;
 
       &:hover {
-        background-color: #ff3368;
-        color: #fff;
+        background-color: $item_color;
+        color: $font_white;
         text-decoration: none;
       }
     }

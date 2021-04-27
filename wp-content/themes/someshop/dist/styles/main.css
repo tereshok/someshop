@@ -16452,7 +16452,7 @@ a.text-dark:focus {
   }
 }
 
-/* line 1, assets/styles/components/_header.scss */
+/* line 3, assets/styles/components/_header.scss */
 
 .header {
   background-color: #ecfdff;
@@ -16460,18 +16460,22 @@ a.text-dark:focus {
   padding: 0 0 20px;
 }
 
-/* line 6, assets/styles/components/_header.scss */
+/* line 8, assets/styles/components/_header.scss */
 
 .header .header_img {
   max-height: 350px;
 }
 
-/* line 10, assets/styles/components/_header.scss */
+/* line 12, assets/styles/components/_header.scss */
 
 .header .header_title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -16480,40 +16484,40 @@ a.text-dark:focus {
           justify-content: center;
 }
 
-/* line 16, assets/styles/components/_header.scss */
+/* line 19, assets/styles/components/_header.scss */
 
 .header h2 {
   font-size: 36px;
   font-weight: 700;
 }
 
-/* line 22, assets/styles/components/_header.scss */
+/* line 25, assets/styles/components/_header.scss */
 
 .header_home {
   background-color: #ecfdff;
   height: 70vh;
 }
 
-/* line 26, assets/styles/components/_header.scss */
+/* line 29, assets/styles/components/_header.scss */
 
 .header_home .hero_block {
   padding: 50px 0 0;
 }
 
-/* line 29, assets/styles/components/_header.scss */
+/* line 32, assets/styles/components/_header.scss */
 
 .header_home .hero_block h1 {
   font-size: 66px;
   font-weight: 700;
 }
 
-/* line 34, assets/styles/components/_header.scss */
+/* line 37, assets/styles/components/_header.scss */
 
 .header_home .hero_block p {
   padding: 25px 0;
 }
 
-/* line 38, assets/styles/components/_header.scss */
+/* line 41, assets/styles/components/_header.scss */
 
 .header_home .hero_block button {
   background-color: #ff0956;
@@ -16524,25 +16528,44 @@ a.text-dark:focus {
   border-radius: 7px;
 }
 
-/* line 46, assets/styles/components/_header.scss */
+/* line 49, assets/styles/components/_header.scss */
 
 .header_home .hero_block button:hover {
   background: linear-gradient(225deg, #ffa00d 0%, #ff0956 100%);
 }
 
-/* line 1, assets/styles/components/_footer.scss */
+/* line 57, assets/styles/components/_header.scss */
+
+#breadcrumbs a {
+  color: #666;
+}
+
+/* line 60, assets/styles/components/_header.scss */
+
+#breadcrumbs a:hover {
+  text-decoration: none;
+  color: #ff0956;
+}
+
+/* line 66, assets/styles/components/_header.scss */
+
+#breadcrumbs .breadcrumb_last {
+  color: #ff0956;
+}
+
+/* line 3, assets/styles/components/_footer.scss */
 
 .footer_widget {
   padding: 30px 0;
 }
 
-/* line 4, assets/styles/components/_footer.scss */
+/* line 6, assets/styles/components/_footer.scss */
 
 .footer_widget li {
   list-style: none;
 }
 
-/* line 8, assets/styles/components/_footer.scss */
+/* line 10, assets/styles/components/_footer.scss */
 
 .footer_widget .widgettitle {
   font-size: 20px;
@@ -16550,20 +16573,20 @@ a.text-dark:focus {
   padding: 0 0 20px;
 }
 
-/* line 14, assets/styles/components/_footer.scss */
+/* line 16, assets/styles/components/_footer.scss */
 
 .footer_widget a {
   color: #666;
 }
 
-/* line 17, assets/styles/components/_footer.scss */
+/* line 19, assets/styles/components/_footer.scss */
 
 .footer_widget a:hover {
-  color: #ff3368;
+  color: #ff0956;
   text-decoration: none;
 }
 
-/* line 24, assets/styles/components/_footer.scss */
+/* line 26, assets/styles/components/_footer.scss */
 
 .footer_info {
   display: -webkit-box;
@@ -16574,7 +16597,7 @@ a.text-dark:focus {
           justify-content: space-between;
 }
 
-/* line 28, assets/styles/components/_footer.scss */
+/* line 30, assets/styles/components/_footer.scss */
 
 .footer_info li {
   display: -webkit-inline-box;
@@ -16582,22 +16605,22 @@ a.text-dark:focus {
   display: inline-flex;
 }
 
-/* line 31, assets/styles/components/_footer.scss */
+/* line 33, assets/styles/components/_footer.scss */
 
 .footer_info li a {
-  color: #7f7f7f;
+  color: #666;
   padding: 5px 11px;
 }
 
-/* line 35, assets/styles/components/_footer.scss */
+/* line 37, assets/styles/components/_footer.scss */
 
 .footer_info li a:hover {
-  background-color: #ff3368;
+  background-color: #ff0956;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 1, assets/styles/components/_sidebar.scss */
+/* line 3, assets/styles/components/_sidebar.scss */
 
 .sidebar_main .widget {
   background: #fbf9ff;
@@ -16605,7 +16628,7 @@ a.text-dark:focus {
   margin: 0 0 30px;
 }
 
-/* line 8, assets/styles/components/_sidebar.scss */
+/* line 10, assets/styles/components/_sidebar.scss */
 
 .sidebar_main h2 {
   font-size: 20px;
@@ -16613,7 +16636,7 @@ a.text-dark:focus {
   font-weight: 500;
 }
 
-/* line 13, assets/styles/components/_sidebar.scss */
+/* line 15, assets/styles/components/_sidebar.scss */
 
 .sidebar_main h2::after {
   content: "";
@@ -16622,105 +16645,105 @@ a.text-dark:focus {
   border-bottom: 1px solid #f0e9ff;
 }
 
-/* line 21, assets/styles/components/_sidebar.scss */
+/* line 23, assets/styles/components/_sidebar.scss */
 
 .sidebar_main li {
   border-bottom: 1px solid #f0e9ff;
   padding: 15px 0;
 }
 
-/* line 25, assets/styles/components/_sidebar.scss */
+/* line 27, assets/styles/components/_sidebar.scss */
 
 .sidebar_main li a {
   color: #666;
 }
 
-/* line 28, assets/styles/components/_sidebar.scss */
+/* line 30, assets/styles/components/_sidebar.scss */
 
 .sidebar_main li a:hover {
   text-decoration: none;
-  color: #ff3368;
+  color: #ff0956;
 }
 
-/* line 36, assets/styles/components/_sidebar.scss */
+/* line 38, assets/styles/components/_sidebar.scss */
 
 .screen-reader-text {
   display: none;
 }
 
-/* line 40, assets/styles/components/_sidebar.scss */
+/* line 42, assets/styles/components/_sidebar.scss */
 
 .search-field {
   width: 300px;
   height: 50px;
   border: 1px solid #f0e9ff;
   font-size: 13px;
-  color: #999;
+  color: #666;
   padding: 0 0 0 20px;
 }
 
-/* line 49, assets/styles/components/_sidebar.scss */
+/* line 51, assets/styles/components/_sidebar.scss */
 
 .search-submit {
   width: 300px;
   padding: 15px 0;
-  background: #ff3368;
+  background: #ff0956;
   color: #fff;
-  border: 1px solid #edeff2;
+  border: 1px solid #f0e9ff;
   text-transform: uppercase;
 }
 
-/* line 58, assets/styles/components/_sidebar.scss */
+/* line 60, assets/styles/components/_sidebar.scss */
 
 .widget_tag_cloud .tagcloud a {
-  border: 1px solid #eee;
+  border: 1px solid #f0e9ff;
   background: #fff;
   color: #666;
   padding: 4px 20px;
   font-size: 13px !important;
 }
 
-/* line 65, assets/styles/components/_sidebar.scss */
+/* line 67, assets/styles/components/_sidebar.scss */
 
 .widget_tag_cloud .tagcloud a:hover {
-  background-color: #ff3368;
+  background-color: #ff0956;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 1, assets/styles/components/_single.scss */
+/* line 3, assets/styles/components/_single.scss */
 
 .single_section {
   padding: 100px 0 0;
 }
 
-/* line 4, assets/styles/components/_single.scss */
+/* line 6, assets/styles/components/_single.scss */
 
 .single_section .single_img img {
-  height: 100%;
-  max-width: 730px;
+  width: 100%;
+  height: auto;
 }
 
-/* line 9, assets/styles/components/_single.scss */
+/* line 11, assets/styles/components/_single.scss */
 
 .single_section .single_category {
   color: #666;
 }
 
-/* line 12, assets/styles/components/_single.scss */
+/* line 14, assets/styles/components/_single.scss */
 
 .single_section .single_category a {
   color: #666;
 }
 
-/* line 15, assets/styles/components/_single.scss */
+/* line 17, assets/styles/components/_single.scss */
 
 .single_section .single_category a:hover {
-  color: #ff3368;
+  color: #ff0956;
   text-decoration: none;
 }
 
-/* line 22, assets/styles/components/_single.scss */
+/* line 24, assets/styles/components/_single.scss */
 
 .single_section .single_tags {
   color: #666;
@@ -16728,35 +16751,35 @@ a.text-dark:focus {
   border-top: 1px solid #f0e9ff;
 }
 
-/* line 27, assets/styles/components/_single.scss */
+/* line 29, assets/styles/components/_single.scss */
 
 .single_section .single_tags a {
-  border: 1px solid #eee;
+  border: 1px solid #f0e9ff;
   background: #fff;
   color: #666;
   padding: 4px 20px;
   font-size: 13px !important;
 }
 
-/* line 34, assets/styles/components/_single.scss */
+/* line 36, assets/styles/components/_single.scss */
 
 .single_section .single_tags a:hover {
-  background-color: #ff3368;
+  background-color: #ff0956;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 1, assets/styles/components/_page.scss */
+/* line 3, assets/styles/components/_page.scss */
 
 .page_section {
   padding: 100px 0 0;
 }
 
-/* line 4, assets/styles/components/_page.scss */
+/* line 6, assets/styles/components/_page.scss */
 
 .page_section .page_img img {
-  height: 100%;
-  max-width: 730px;
+  width: 100%;
+  height: auto;
 }
 
 /* line 3, assets/styles/components/_fonts.scss */
@@ -16771,32 +16794,32 @@ i {
   font-family: 'FontAwesome', sans-serif;
 }
 
-/* line 1, assets/styles/components/_home.scss */
+/* line 3, assets/styles/components/_home.scss */
 
 .blog_section {
   padding: 100px 0 0;
 }
 
-/* line 5, assets/styles/components/_home.scss */
+/* line 7, assets/styles/components/_home.scss */
 
 .blog_post {
   padding: 20px 0;
 }
 
-/* line 8, assets/styles/components/_home.scss */
+/* line 10, assets/styles/components/_home.scss */
 
 .blog_post a {
   color: #000;
 }
 
-/* line 11, assets/styles/components/_home.scss */
+/* line 13, assets/styles/components/_home.scss */
 
 .blog_post a:hover {
-  color: #ff3368;
+  color: #ff0956;
   text-decoration: none;
 }
 
-/* line 16, assets/styles/components/_home.scss */
+/* line 18, assets/styles/components/_home.scss */
 
 .blog_post a h2 {
   display: inline;
@@ -16804,7 +16827,7 @@ i {
   font-weight: 600;
 }
 
-/* line 24, assets/styles/components/_home.scss */
+/* line 26, assets/styles/components/_home.scss */
 
 .blog_post_img {
   margin: 15px 0 0;
@@ -16816,14 +16839,14 @@ i {
           justify-content: center;
 }
 
-/* line 29, assets/styles/components/_home.scss */
+/* line 31, assets/styles/components/_home.scss */
 
 .blog_post_img img {
-  max-width: 750px;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 
-/* line 35, assets/styles/components/_home.scss */
+/* line 37, assets/styles/components/_home.scss */
 
 .blog_details {
   padding: 60px 30px 35px 35px;
@@ -16831,22 +16854,22 @@ i {
           box-shadow: 0 10px 20px 0 #dddddd5c;
 }
 
-/* line 39, assets/styles/components/_home.scss */
+/* line 41, assets/styles/components/_home.scss */
 
 .blog_details .blog_category {
   color: #666;
 }
 
-/* line 42, assets/styles/components/_home.scss */
+/* line 44, assets/styles/components/_home.scss */
 
 .blog_details .blog_category a {
   color: #666;
 }
 
-/* line 45, assets/styles/components/_home.scss */
+/* line 47, assets/styles/components/_home.scss */
 
 .blog_details .blog_category a:hover {
-  color: #ff3368;
+  color: #ff0956;
 }
 
 /*!
