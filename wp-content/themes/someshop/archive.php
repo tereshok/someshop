@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container blog_section">
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-8 col-md-8 col-xs-12">
       <?php if( have_posts() ) : ?>
         <?php while(have_posts()) : the_post();  ?>
           <div class="blog_post">
@@ -15,7 +15,7 @@
         <?php endwhile; ?>
       <?php endif; ?>  
     </div>
-    <div class="col-lg-4 sidebar_main">
+    <div class="col-lg-4 col-md-8 col-xs-12 sidebar_main">
       <?php 
         get_sidebar('main');
       ?>

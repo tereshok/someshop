@@ -26,10 +26,13 @@
         ?>    
     </nav>  
     <div class="row">
-        <div class="col-lg-6 col-md-6 header_title">
-            <h1><?php echo wp_title("", true); ?></h1>
+        <div class="col-lg-6 col-md-6 col-xs-12 header_title">
+            <div><h1><?php echo wp_title("", true); ?></h1></div>
+            <?php if(function_exists('yoast_breadcrumb'))
+                echo yoast_breadcrumb('<div id="breadcrumbs">', '</div>', 'false');
+            ?>
         </div>
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6 col-md-6 col-xs-12">
         <img src="/wp-content/uploads/2021/04/designer-chair-png-4-Transparent-Images.png" alt="#" class="header_img">
         </div>
     </div>  
