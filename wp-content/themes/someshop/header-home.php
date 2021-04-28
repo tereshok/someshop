@@ -30,7 +30,7 @@
         <div class="col-lg-4 col-md-6 col-xs-12">
             <h1>Wood & Cloth Sofa</h1>
             <p>Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
-            <button>Buy now</button>
+            <button>It's work</button>
         </div>
         <div class="col-lg-8 col-md-6 col-xs-12">
         <img src="/wp-content/uploads/2021/04/banner_img.png" alt="#" style="width:100%">
