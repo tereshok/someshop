@@ -5,6 +5,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 <header class="header_home">
   <div class="container">
     <nav class="navbar navbar-expand-md navbar-light" role="navigation">
