@@ -1,0 +1,20 @@
+.team-card {
+  margin: 30px 0;
+  color: $font_dark;
+  padding: 20px 5px;
+  box-shadow: 0 10px 20px 0 #dddddd5c;
+
+  img {
+    padding: 0 15px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .info-team {
+    color: $font_grey;
+  }
+
+  .about-team {
+    border-top: 1px solid $widget_item;
+  }
+}
