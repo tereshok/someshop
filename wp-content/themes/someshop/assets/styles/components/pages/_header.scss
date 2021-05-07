@@ -1,5 +1,14 @@
 @import "../systems/variables";
 
+.header-logo {
+  padding: 12px 30px 0 0;
+
+  img {
+    max-width: 150px;
+    height: auto;
+  }
+}
+
 .header {
   background-color: $header_bg;
   height: 50vh;

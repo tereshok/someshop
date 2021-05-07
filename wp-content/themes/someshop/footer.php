@@ -17,14 +17,13 @@
         </div>
       </div>
       <div class="footer_info">
-        <div class="footer_copyright">Copyright ©2021 All rights reserved | This template is made with SomeShop</div>
+        <div class="footer_copyright"><?php the_field('copyright_info', 'option'); ?></div>
         <ul class="footer_social-icons">
-          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fas fa-globe"></i></a></li>
-          <li><a href="#"><i class="fab fa-behance"></i></a></li>
+          <?php while(has_sub_field('social_icons', 'option')): ?>
+            <li><a href="<?php the_sub_field('social_network_url'); ?>"><?php the_sub_field('social_network_name'); ?></a></li>
+          <?php endwhile; ?>
         </ul>
-      </div>  
+      </div>
     </div>
     <?php wp_footer();?>
   </body>

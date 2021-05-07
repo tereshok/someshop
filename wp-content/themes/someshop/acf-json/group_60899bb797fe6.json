@@ -31,7 +31,7 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "array",
+            "return_format": "url",
             "preview_size": "thumbnail",
             "library": "all",
             "min_width": "",
@@ -112,14 +112,39 @@
                     "choices": {
                         "<i class=\"fab fa-twitch\"><\/i>": "twitch",
                         "<i class=\"fab fa-youtube\"><\/i>": "youtube",
-                        "<i class=\"fab fa-unsplash\"><\/i>": "unsplash",
-                        "<i class=\"fab fa-artstation\"><\/i>": "artstation"
+                        "<i class=\"fa fa-medium\"><\/i>": "medium",
+                        "<i class=\"fa fa-twitter\"><\/i>": "twitter",
+                        "<i class=\"fa fa-google-plus\"><\/i>": "google-plus",
+                        "<i class=\"fa fa-facebook-official\"><\/i>": "facebook",
+                        "<i class=\"fa fa-linkedin-square\"><\/i>": "linkedin",
+                        "<i class=\"fa fa-behance\"><\/i>": "behance",
+                        "<i class=\"fa fa-amazon\"><\/i>": "amazon",
+                        "<i class=\"fa fa-github\"><\/i>": "github",
+                        "<i class=\"fa fa-font-awesome\"><\/i>": "font-awesome",
+                        "<i class=\"fa fa-dropbox\"><\/i>": "dropbox",
+                        "<i class=\"fa fa-instagram\"><\/i>": "instagram",
+                        "<i class=\"fa fa-codepen\"><\/i>": "codepen",
+                        "<i class=\"fa fa-reddit\"><\/i>": "reddit",
+                        "<i class=\"fa fa-pinterest-p\"><\/i>": "pinterest",
+                        "<i class=\"fa fa-odnoklassniki\"><\/i>": "odnoklassniki",
+                        "<i class=\"fa fa-telegram\"><\/i>": "telegram",
+                        "<i class=\"fa fa-spotify\"><\/i>": "spotify",
+                        "<i class=\"fa fa-snapchat\"><\/i>": "snapchat",
+                        "<i class=\"fa fa-steam\"><\/i>": "steam",
+                        "<i class=\"fa fa-trello\"><\/i>": "trello",
+                        "<i class=\"fa fa-jsfiddle\"><\/i>": "jsfiddle",
+                        "<i class=\"fa fa-gitlab\"><\/i>": "gitlab",
+                        "<i class=\"fa fa-bitbucket\"><\/i>": "bitbucket",
+                        "<i class=\"fa fa-500px\"><\/i>": "500px",
+                        "<i class=\"fa fa-google\"><\/i>": "google",
+                        "<i class=\"fa fa-flickr\"><\/i>": "flickr",
+                        "<i class=\"fa fa-meetup\"><\/i>": "meetup"
                     },
                     "default_value": false,
                     "allow_null": 0,
                     "multiple": 0,
                     "ui": 0,
-                    "return_format": "label",
+                    "return_format": "value",
                     "ajax": 0,
                     "placeholder": ""
                 },
@@ -159,5 +184,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1620297606
+    "modified": 1620393914
 }
