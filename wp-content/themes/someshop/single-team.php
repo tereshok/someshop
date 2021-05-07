@@ -4,6 +4,7 @@ $term_dep = get_field('department');
 $term_loc = get_field('location');
 ?>
 	<div class="container">
+		<div class="row">
 			<div class="d-flex team-card">
 				<?php if(!empty(get_the_post_thumbnail_url())) : ?>
 					<img src="<?php the_post_thumbnail_url('medium'); ?>" alt="#">
@@ -18,6 +19,7 @@ $term_loc = get_field('location');
 					<p class="about-team"><?php the_content(); ?></p>
 				</div>
 			</div>
+		</div>
 	</div>
 <?php
 get_footer();

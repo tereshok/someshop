@@ -1,0 +1,54 @@
+.product-big {
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ecfdff;
+  padding: 35px 0;
+  margin: 30px 0;
+
+  h2 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .prod-text {
+    max-width: 600px;
+  }
+}
+
+.prod-card {
+  background-color: #f8fbff;
+  margin: 0 0 10px;
+  padding: 10px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+
+  .prod-text {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  .prod-link {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #ff3368;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: none;
+      color: #fe6e01;
+    }
+  }
+
+  img {
+    max-height: 371px;
+  }
+}
+
+.prod {
+  margin: 25px 0;
+}
