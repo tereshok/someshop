@@ -8,7 +8,7 @@ get_header();
 ?>
 <div class="container">
 <?php
-require_once THEME_DIR . '../inc/classes/AboutUs.class.php';
+require_once THEME_DIR . '/inc/classes/AboutUs.class.php';
 
 $about = new AboutUs;
 
@@ -34,4 +34,4 @@ if(!empty($acf_fields)){
 </div>
 <?php
 get_footer();
-?>
+

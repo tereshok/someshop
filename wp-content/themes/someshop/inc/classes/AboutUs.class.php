@@ -34,7 +34,7 @@ class AboutUs {
     <section class="about-section">
       <h3><?php echo $data["info_title"] ?></h3>
         <?php foreach ($data["info_table"] as $key) : ?>
-        <?php $i += 1; 
+        <?php $i += 1;
          if($i % 2 == 0) : ?>
           <div class="d-flex table-odd">
             <img src="<?php echo ($key["product_info_img"]["sizes"]["medium"]); ?>" alt="<?php echo ($key["name"]); ?>">
@@ -46,11 +46,10 @@ class AboutUs {
             <p><?php echo ($key["product_info_text"]); ?></p>
           </div>
           <?php endif; ?>
-          <?php endforeach; ?>   
+          <?php endforeach; ?>
       <div class="about-img"><img src="<?php echo $data["info_img"]["sizes"]["medium_large"] ?>" alt="<?php echo $data["info_img"]["name"] ?>"></div>
       <p class="text-about"><?php echo $data["info_text"] ?></p>
     </section>
-
   <?php
   }
 }
