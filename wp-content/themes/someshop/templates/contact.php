@@ -3,6 +3,7 @@
  * Template Name: Contact page Template
  */
 get_header();
+require_once THEME_DIR .'/inc/acf/acf_map_init.php';
 ?>
 <div class="container">
 	<div class="row">

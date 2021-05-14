@@ -21,25 +21,6 @@
             "height": ""
         },
         {
-            "key": "field_6097e1ec0e8d1",
-            "label": "Map api key",
-            "name": "map_api_key",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
             "key": "field_60982d1749682",
             "label": "Form",
             "name": "form",
@@ -160,5 +141,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1620650660
+    "modified": 1621014580
 }

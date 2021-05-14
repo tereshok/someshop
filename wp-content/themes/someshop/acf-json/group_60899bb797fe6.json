@@ -165,6 +165,41 @@
                     "placeholder": ""
                 }
             ]
+        },
+        {
+            "key": "field_609eb7d728998",
+            "label": "Map api key",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_609eb7f228999",
+            "label": "Api key",
+            "name": "api_key",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -184,5 +219,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1620393914
+    "modified": 1621014540
 }
