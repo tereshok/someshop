@@ -42,13 +42,4 @@
     </div>
   </div>
 </div>
-<div class="product-big d-flex">
-	<div>
-		<img src="/wp-content/uploads/2021/05/offer_img.png">
-	</div>
-	<div class="prod-text">
-		<h2>Weekly Sale on 60% Off All Products</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	</div>
-</div>
+

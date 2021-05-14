@@ -31,6 +31,7 @@ if(!empty($acf_fields)){
   }
 }
 ?>
+
 </div>
 <?php
 get_footer();
