@@ -14,10 +14,6 @@ function theme_scripts() {
 	// CDN hosted jQuery
 	wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-2.2.4.min.js', [], '2.2.4', false);
 
-	// Map api key
-	$map_api = get_field('map_api_key');
-	wp_enqueue_script('map-api', 'https://maps.googleapis.com/maps/api/js?key=' . $map_api);
-
 	// Main JS
 	wp_enqueue_script('main-javascript', asset_path('scripts/main.js'), [ 'jquery' ], '1.0.0', true);
 
