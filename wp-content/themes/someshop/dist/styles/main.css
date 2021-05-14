@@ -21551,33 +21551,6 @@ i {
 
 /* line 1, assets/styles/components/pages/_product.scss */
 
-.product-big {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  background-color: #ecfdff;
-  padding: 35px 0;
-  margin: 30px 0;
-}
-
-/* line 8, assets/styles/components/pages/_product.scss */
-
-.product-big h2 {
-  font-size: 50px;
-  font-weight: 700;
-}
-
-/* line 13, assets/styles/components/pages/_product.scss */
-
-.product-big .prod-text {
-  max-width: 600px;
-}
-
-/* line 18, assets/styles/components/pages/_product.scss */
-
 .prod-card {
   background-color: #f8fbff;
   margin: 0 0 10px;
@@ -21595,7 +21568,7 @@ i {
   position: relative;
 }
 
-/* line 28, assets/styles/components/pages/_product.scss */
+/* line 11, assets/styles/components/pages/_product.scss */
 
 .prod-card .prod-text {
   position: absolute;
@@ -21603,7 +21576,7 @@ i {
   left: 15px;
 }
 
-/* line 34, assets/styles/components/pages/_product.scss */
+/* line 17, assets/styles/components/pages/_product.scss */
 
 .prod-card .prod-link {
   position: absolute;
@@ -21613,23 +21586,450 @@ i {
   font-weight: 600;
 }
 
-/* line 41, assets/styles/components/pages/_product.scss */
+/* line 24, assets/styles/components/pages/_product.scss */
 
 .prod-card .prod-link:hover {
   text-decoration: none;
   color: #fe6e01;
 }
 
-/* line 47, assets/styles/components/pages/_product.scss */
+/* line 30, assets/styles/components/pages/_product.scss */
 
 .prod-card img {
   max-height: 371px;
 }
 
-/* line 52, assets/styles/components/pages/_product.scss */
+/* line 35, assets/styles/components/pages/_product.scss */
 
 .prod {
   margin: 25px 0;
+}
+
+/* line 3, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-form {
+  max-width: 750px;
+  margin: 20px 0;
+}
+
+/* line 7, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-form textarea {
+  padding: 10px 0 0 15px;
+}
+
+/* line 11, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-form .contact-pg-field {
+  max-height: 185px;
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+/* line 17, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-form .contact-pg-subform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 20px;
+}
+
+/* line 22, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-form .contact-pg-subform input {
+  height: 48px;
+  width: 360px;
+}
+
+/* line 28, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-form .contact-pg-subject {
+  width: 100%;
+  height: 48px;
+  margin: 0 0 20px;
+}
+
+/* line 34, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-form .contact-pg-button {
+  text-transform: uppercase;
+  color: #fff;
+  background: #ff0956;
+  border-radius: 50px;
+  border: none;
+  -webkit-box-shadow: -2px 8px 30px 3px #ff09563d;
+          box-shadow: -2px 8px 30px 3px #ff09563d;
+  padding: 12px 25px;
+}
+
+/* line 43, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-form .contact-pg-button:hover {
+  background: #f00;
+}
+
+/* line 49, assets/styles/components/pages/_contact.scss */
+
+.contact-pg-field,
+.contact-pg-subform input,
+.contact-pg-subject {
+  border: 1px solid #f0e9ff;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 0 0 0 15px;
+  color: #666;
+}
+
+/* line 59, assets/styles/components/pages/_contact.scss */
+
+.contacts {
+  margin: 20px 0;
+}
+
+/* line 63, assets/styles/components/pages/_contact.scss */
+
+.contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* line 67, assets/styles/components/pages/_contact.scss */
+
+.contact-info img {
+  margin: 5px 10px 0 0;
+}
+
+/* line 71, assets/styles/components/pages/_contact.scss */
+
+.contact-info h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* line 76, assets/styles/components/pages/_contact.scss */
+
+.contact-info p {
+  color: #666;
+  font-size: 15px;
+}
+
+/* line 82, assets/styles/components/pages/_contact.scss */
+
+.acf-map {
+  height: 480px;
+  width: 100%;
+  margin: 50px 0 30px;
+  border: 1px solid #eee;
+}
+
+/* line 4, assets/styles/components/pages/_comments.scss */
+
+ol.commentlist ul.children {
+  padding: 0 0 0 6px;
+  margin: 0 0 10px;
+  border-left: 2px solid #888;
+}
+
+/* line 11, assets/styles/components/pages/_comments.scss */
+
+.comment-body {
+  background: #fbf9ff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+/* line 16, assets/styles/components/pages/_comments.scss */
+
+.comment-body .fn {
+  color: #666;
+  font-weight: 600;
+}
+
+/* line 20, assets/styles/components/pages/_comments.scss */
+
+.comment-body .fn a {
+  color: #ff0956;
+  font-weight: 600;
+}
+
+/* line 26, assets/styles/components/pages/_comments.scss */
+
+.comment-body .commentmetadata a {
+  color: #666;
+}
+
+/* line 30, assets/styles/components/pages/_comments.scss */
+
+.comment-body .reply a {
+  color: #fff;
+  background: #ff0956;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+/* line 38, assets/styles/components/pages/_comments.scss */
+
+.logged-in-as a {
+  color: #666;
+}
+
+/* line 43, assets/styles/components/pages/_comments.scss */
+
+.form-submit input.submit {
+  color: #fff;
+  background: #ff0956;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+/* line 52, assets/styles/components/pages/_comments.scss */
+
+.comment-form-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+/* line 56, assets/styles/components/pages/_comments.scss */
+
+.comment-form-comment label {
+  padding: 5px 0;
+  color: #666;
+}
+
+/* line 62, assets/styles/components/pages/_comments.scss */
+
+.nocomments {
+  padding: 5px 0;
+  color: #666;
+  font-weight: 600;
+}
+
+/* line 68, assets/styles/components/pages/_comments.scss */
+
+.comment-reply-title small a {
+  color: #fff;
+  background: #ff0956;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin: 0 0 0 5px;
+}
+
+/* line 3, assets/styles/components/pages/_archive-team.scss */
+
+.team-department,
+.team-location,
+.all-team a {
+  color: #666;
+  padding: 7px 15px;
+}
+
+/* line 9, assets/styles/components/pages/_archive-team.scss */
+
+.team-department:hover,
+.team-location:hover,
+.all-team a:hover {
+  color: #000;
+  background: #f0e9ff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* line 17, assets/styles/components/pages/_archive-team.scss */
+
+.team-text {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* line 23, assets/styles/components/pages/_archive-team.scss */
+
+.team-text .active {
+  color: #fff;
+  background: #ff0956;
+  border-radius: 5px;
+}
+
+/* line 30, assets/styles/components/pages/_archive-team.scss */
+
+.team-row {
+  margin: 30px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 35, assets/styles/components/pages/_archive-team.scss */
+
+.team-member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+/* line 41, assets/styles/components/pages/_archive-team.scss */
+
+.team-member .member-img {
+  border-radius: 150px;
+}
+
+/* line 45, assets/styles/components/pages/_archive-team.scss */
+
+.team-member .member-err-img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 150px;
+}
+
+/* line 51, assets/styles/components/pages/_archive-team.scss */
+
+.team-member .member-title {
+  padding: 5px 0 0;
+  color: #000;
+  font-weight: 600;
+}
+
+/* line 56, assets/styles/components/pages/_archive-team.scss */
+
+.team-member .member-title:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+/* line 62, assets/styles/components/pages/_archive-team.scss */
+
+.team-member .member-position {
+  color: #666;
+}
+
+/* line 66, assets/styles/components/pages/_archive-team.scss */
+
+.team-member .member-department,
+.team-member .member-location {
+  color: #666;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* line 73, assets/styles/components/pages/_archive-team.scss */
+
+.team-member p {
+  margin: 0.1rem 0;
+}
+
+/* line 78, assets/styles/components/pages/_archive-team.scss */
+
+.team-err {
+  margin: 10% 36%;
+}
+
+/* line 3, assets/styles/components/pages/_sale-content.scss */
+
+.sale-block {
+  background-color: #ecfdff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 60px 0;
+  padding: 60px 0;
+}
+
+/* line 11, assets/styles/components/pages/_sale-content.scss */
+
+.sale-block .sale-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* line 16, assets/styles/components/pages/_sale-content.scss */
+
+.sale-block .sale-content {
+  font-size: 28px;
+  text-align: center;
+}
+
+/* line 22, assets/styles/components/pages/_sale-content.scss */
+
+.product-wc-block {
+  height: 578px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 29, assets/styles/components/pages/_sale-content.scss */
+
+.product-wc-block .product-before-title {
+  color: #ff0956;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 36, assets/styles/components/pages/_sale-content.scss */
+
+.product-wc-block .product-title {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  max-width: 800px;
+}
+
+/* line 44, assets/styles/components/pages/_sale-content.scss */
+
+.partner-card {
+  margin: 50px 0;
+}
+
+/* line 48, assets/styles/components/pages/_sale-content.scss */
+
+.item-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
 }
 
 

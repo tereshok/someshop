@@ -1,0 +1,74 @@
+@import "../systems/variables";
+
+ol.commentlist {
+  ul.children {
+    padding: 0 0 0 6px;
+    margin: 0 0 10px;
+    border-left: 2px solid #888;
+  }
+}
+
+.comment-body {
+  background: $widget_bg;
+  margin: 0 0 5px;
+  padding: 10px;
+
+  .fn {
+    color: $font_grey;
+    font-weight: 600;
+
+    a {
+      color: $item_color;
+      font-weight: 600;
+    }
+  }
+
+  .commentmetadata a {
+    color: $font_grey;
+  }
+
+  .reply a {
+    color: $font_white;
+    background: $item_color;
+    padding: 5px 7px;
+    border-radius: 5px;
+  }
+}
+
+.logged-in-as a {
+  color: $font_grey;
+}
+
+.form-submit {
+  input.submit {
+    color: $font_white;
+    background: $item_color;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+  }
+}
+
+.comment-form-comment {
+  display: flex;
+  flex-direction: column-reverse;
+
+  label {
+    padding: 5px 0;
+    color: $font_grey;
+  }
+}
+
+.nocomments {
+  padding: 5px 0;
+  color: $font_grey;
+  font-weight: 600;
+}
+
+.comment-reply-title small a {
+  color: $font_white;
+  background: $item_color;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin: 0 0 0 5px;
+}

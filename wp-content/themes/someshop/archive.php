@@ -13,13 +13,13 @@
             </div>
           </div>
         <?php endwhile; ?>
-      <?php endif; ?>  
+      <?php endif; ?>
     </div>
-    <div class="col-lg-4 col-md-8 col-xs-12 sidebar_main">
-      <?php 
-        get_sidebar('main');
-      ?>
-    </div>
+	  <div class="col-lg-4 col-md-8 col-xs-12 sidebar_main">
+		  <?php
+		  get_sidebar('main');
+		  ?>
+	  </div>
   </div>
 </div>
 <?php get_footer(); ?>
