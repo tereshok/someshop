@@ -14,8 +14,17 @@
   height: 50vh;
   padding: 0 0 20px;
 
+  @media screen and (max-width: 768px) {
+    height: 35vh;
+  }
+
   .header_img {
     max-height: 350px;
+
+    @media screen and (max-width: 768px) {
+      max-height: 200px;
+      flex-direction: column;
+    }
   }
 
   .header_title {
@@ -34,6 +43,10 @@
 .header_home {
   background-color: $header_bg;
   height: 70vh;
+
+  @media screen and (max-width: 768px) {
+    height: 45vh;
+  }
 
   .hero_block {
     padding: 50px 0 0;
@@ -75,4 +88,12 @@
   .breadcrumb_last {
     color: $item_color;
   }
+}
+
+.menu-cont {
+  justify-content: space-between;
+}
+
+.menu-top-menueng-container {
+  margin: 10px 0;
 }

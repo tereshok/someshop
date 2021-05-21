@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container blog_section">
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-8 col-md-12">
       <?php if( have_posts() ) : ?>
         <?php while(have_posts()) : the_post();  ?>
           <div class="blog_post">
@@ -15,11 +15,11 @@
           </div>
         <?php endwhile; ?>
       <?php else: ?>
-        <h3><?php echo get_search_query(); ?> - Don't have results.</h3>
-      <?php endif; ?>  
+        <h3><?php echo get_search_query(); ?> - <?php _e('Don\'t have results.', 'someshop'); ?></h3>
+      <?php endif; ?>
     </div>
-    <div class="col-lg-4 sidebar_main">
-      <?php 
+    <div class="col-lg-4 col-md-12 sidebar_main">
+      <?php
         get_sidebar('main');
       ?>
     </div>

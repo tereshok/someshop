@@ -18,7 +18,7 @@ class AboutUs {
       <p class="text-about"><?php echo $data["product_before_text"] ?></p>
       <div class="row">
         <?php foreach ($data["product_gallery"] as $key) : ?>
-          <div class="col-lg-2 gallery-item">
+          <div class="col-lg-2 col-md-4 col-sm-2 gallery-item">
             <img src="<?php echo ($key["sizes"]["thumbnail"]); ?>" alt="<?php echo ($key["name"]); ?>">
           </div>
         <?php endforeach; ?>

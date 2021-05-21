@@ -5,10 +5,10 @@ class Team {
 			'taxonomy' => 'department'
 		]);
 		 $get_param = '?tax=department&t='; ?>
-		 <div class="col-lg-3 team-text all-team" ><a href="<?php echo get_post_type_archive_link('team'); ?>"
-		 <?php if($_GET["t"] == NULL) echo 'class="active"'; ?>>All</a></div>
+		 <div class="col-lg-3 col-md-6 team-text all-team" ><a href="<?php echo get_post_type_archive_link('team'); ?>"
+		 <?php if($_GET["t"] == NULL) echo 'class="active"'; ?>><?php _e('All', 'someshop'); ?></a></div>
 		 <?php foreach ($departmens as $department) : ?>
-			<div class="col-lg-3 team-text">
+			<div class="col-lg-3 col-md-6 team-text">
 				<a href="<?php echo $get_param . $department->slug; ?>" class="team-department <?php if($_GET["t"] == $department->slug) echo 'active'; ?>">
 				<?php echo $department->name; ?></a>
 			</div>
@@ -21,7 +21,7 @@ class Team {
 		]);
 		$get_param = '?tax=locations&t=';
 		foreach ($locations as $location) : ?>
-			<div class="col-lg-4 team-text">
+			<div class="col-lg-4 col-md-4 team-text">
 				<a href="<?php echo $get_param . $location->slug ?>" class="team-location <?php if($_GET["t"] == $location->slug) echo 'active'; ?>">
 				<?php echo $location->name; ?></a>
 			</div>
@@ -52,7 +52,7 @@ class Team {
 			<div class="row">
 				<?php foreach ($all_team_members->posts as $team_member) : ?>
 					<?php $id = $team_member->ID; ?>
-					<div class="col-lg-3 team-member">
+					<div class="col-lg-3 col-md-6 col-sm-12 team-member">
 						<?php if(!empty(get_the_post_thumbnail_url( $id, 'thumbnail' ))) : ?>
 						<img src="<?php echo get_the_post_thumbnail_url( $id, 'thumbnail' );?>" class="member-img">
 						<?php else : ?>

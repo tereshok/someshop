@@ -11,7 +11,7 @@
 						<div class="blog_details">
 							<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
 							<p><?php the_excerpt(); ?></p>
-							<div class="blog_category">Category: <?php the_category(' '); ?></div>
+							<div class="blog_category"><?php _e('Category: ', 'someshop'); ?><?php the_category(' '); ?></div>
 						</div>
 					</div>
 				<?php endwhile; ?>

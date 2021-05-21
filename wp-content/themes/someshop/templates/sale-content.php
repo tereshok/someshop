@@ -24,7 +24,7 @@ if(!empty($flexible_content)){
 			<div class="container">
 				<div class="row partner-card">
 					<?php foreach($content_item['partner_card'] as $partner) : ?>
-						<div class="col-lg-3 item-card">
+						<div class="col-lg-3 col-md-4 col-sm-6 item-card">
 							<a href="<?php echo $partner['partner_link']; ?>">
 								<img src="<?php echo $partner['partner_image']; ?>">
 							</a>

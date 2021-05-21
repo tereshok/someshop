@@ -13,9 +13,12 @@ $term_loc = get_field('location');
 				<?php endif; ?>
 				<div>
 					<h3><?php the_title(); ?></h3>
-					<div class="info-team">Position: <span><?php the_field('position'); ?></span></div>
-					<div class="info-team">Department: <span><?php echo ($term_dep->name); ?></span</div>
-					<div class="info-team">Location: <span><?php echo ($term_loc->name); ?></span></div>
+					<div class="info-team"><?php _e('Position: ', 'someshop'); ?>
+						<span><?php the_field('position'); ?></span></div>
+					<div class="info-team"><?php _e('Department: ', 'someshop'); ?>
+						<span><?php echo ($term_dep->name); ?></span</div>
+					<div class="info-team"><?php _e('Location: ', 'someshop'); ?>
+						<span><?php echo ($term_loc->name); ?></span></div>
 					<p class="about-team"><?php the_content(); ?></p>
 				</div>
 			</div>

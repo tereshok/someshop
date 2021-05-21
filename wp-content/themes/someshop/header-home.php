@@ -8,7 +8,7 @@
 <?php wp_body_open(); ?>
 <header class="header_home">
   <div class="container">
-	  <div class="d-flex">
+	  <div class="d-flex menu-cont">
 		  <div class="header-logo">
 			  <?php if( get_field('logo', 'option') ): ?>
 				  <a href="/">
@@ -34,14 +34,20 @@
 			  ]);
 			  ?>
 		  </nav>
+		  <?php
+		  wp_nav_menu([
+				  'theme_location'    => 'top_menu',
+				  'menu_class'		  => '',
+		  ]);
+		  ?>
 	  </div>
     <div class="row hero_block">
-        <div class="col-lg-4 col-md-6 col-xs-12">
-            <h1>Wood & Cloth Sofa</h1>
-            <p>Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
-            <button>Buy now</button>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <h1><?php _e('Wood & Cloth Sofa', 'someshop'); ?></h1>
+            <p><?php _e('Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra', 'someshop'); ?></p>
+            <button><?php _e('Buy now', 'someshop'); ?></button>
         </div>
-        <div class="col-lg-8 col-md-6 col-xs-12">
+        <div class="col-lg-8 col-md-12 col-sm-12">
         <img src="/wp-content/uploads/2021/04/banner_img.png" alt="#" style="width:100%">
         </div>
     </div>

@@ -6,6 +6,7 @@ function theme_setup(){
   add_theme_support( 'html5', ['search-form', 'gallery'] );
 
   register_nav_menu('header', 'Primary menu');
+  register_nav_menu('top_menu', 'Language switcher');
 }
 
 add_action('after_setup_theme', 'theme_setup');

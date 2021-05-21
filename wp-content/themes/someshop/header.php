@@ -8,7 +8,7 @@
 <?php wp_body_open(); ?>
 <header class="header">
   <div class="container">
-	  <div class="d-flex">
+	  <div class="d-flex menu-cont">
 		  <div class="header-logo">
 			  <?php if( get_field('logo', 'option') ): ?>
 				  <a href="/">
@@ -34,15 +34,21 @@
 			  ]);
 			  ?>
 		  </nav>
+			  <?php
+			  wp_nav_menu([
+					  'theme_location'    => 'top_menu',
+					  'menu_class'		  => '',
+			  ]);
+			  ?>
 	  </div>
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-xs-12 header_title">
+        <div class="col-lg-6 col-md-6 col-sm-12 header_title">
             <div><h1><?php echo wp_title("", true); ?></h1></div>
             <?php if(function_exists('yoast_breadcrumb'))
                 echo yoast_breadcrumb('<div id="breadcrumbs">', '</div>', 'false');
             ?>
         </div>
-        <div class="col-lg-6 col-md-6 col-xs-12">
+        <div class="col-lg-6 col-md-6 col-sm-12">
         <img src="/wp-content/uploads/2021/04/designer-chair-png-4-Transparent-Images.png" alt="#" class="header_img">
         </div>
     </div>

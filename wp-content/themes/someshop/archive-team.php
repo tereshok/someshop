@@ -12,6 +12,6 @@ $team = new Team();
 	</div>
 	<?php echo $team->get_all_team(); ?>
 <?php else : ?>
-	<h3 class="team-err">Sorry, now team not a found!</h3>
+	<h3 class="team-err"><?php _e('Sorry, now team not a found!', 'someshop'); ?></h3>
 <?php endif;
 get_footer();
