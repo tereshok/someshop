@@ -1,3 +1,4 @@
 credentials.php
 wp-content/plugins/wp-migrate-db-pro/
+wp-content/cache
 git-deploy
