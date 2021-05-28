@@ -18671,9 +18671,10 @@ ol.commentlist ul.children {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
 }
 
-/* line 17, assets/styles/components/pages/_fbi.scss */
+/* line 18, assets/styles/components/pages/_fbi.scss */
 
 .fbi-data {
   -webkit-box-pack: justify;
@@ -18681,7 +18682,7 @@ ol.commentlist ul.children {
           justify-content: space-between;
 }
 
-/* line 20, assets/styles/components/pages/_fbi.scss */
+/* line 21, assets/styles/components/pages/_fbi.scss */
 
 .fbi-data .fbi-card {
   margin: 15px 0;
@@ -18693,7 +18694,7 @@ ol.commentlist ul.children {
   overflow: hidden;
 }
 
-/* line 28, assets/styles/components/pages/_fbi.scss */
+/* line 29, assets/styles/components/pages/_fbi.scss */
 
 .fbi-data .fbi-card h6 {
   color: #666;
@@ -18701,13 +18702,13 @@ ol.commentlist ul.children {
   padding: 5px 0;
 }
 
-/* line 34, assets/styles/components/pages/_fbi.scss */
+/* line 35, assets/styles/components/pages/_fbi.scss */
 
 .fbi-data .fbi-card a:hover {
   text-decoration: none;
 }
 
-/* line 38, assets/styles/components/pages/_fbi.scss */
+/* line 39, assets/styles/components/pages/_fbi.scss */
 
 .fbi-data .fbi-card .fbi-card-rew {
   font-style: italic;
