@@ -18668,7 +18668,9 @@ ol.commentlist ul.children {
 /* line 13, assets/styles/components/pages/_fbi.scss */
 
 .spinner-grow {
-  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /* line 17, assets/styles/components/pages/_fbi.scss */
