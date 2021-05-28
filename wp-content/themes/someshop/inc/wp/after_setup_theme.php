@@ -4,6 +4,7 @@ function theme_setup(){
   add_theme_support('post-thumbnails');
   add_theme_support('title-tag');
   add_theme_support( 'html5', ['search-form', 'gallery'] );
+  add_theme_support( 'woocommerce' );
 
   register_nav_menu('header', 'Primary menu');
   register_nav_menu('top_menu', 'Language switcher');
