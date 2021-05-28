@@ -1,0 +1,44 @@
+@import "../systems/variables";
+
+.fbi-offices-list {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+  .select2 {
+    width: 140px !important;
+  }
+}
+
+.spinner-grow {
+  margin: 0 auto;
+}
+
+.fbi-data {
+  justify-content: space-between;
+
+  .fbi-card {
+    margin: 15px 0;
+    max-width: 370px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0 #dddddd5c;
+    overflow: hidden;
+
+    h6 {
+      color: $font_grey;
+      font-weight: 600;
+      padding: 5px 0;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    .fbi-card-rew {
+      font-style: italic;
+      color: $font_grey;
+      padding: 7px 0;
+    }
+  }
+}

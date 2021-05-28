@@ -2,6 +2,7 @@
 @import "components/systems/normalize";
 @import "~bootstrap/scss/bootstrap";
 @import "~font-awesome/scss/font-awesome";
+@import "~select2/dist/css/select2.min.css";
 @import "components/fonts/fonts";
 @import "components/pages/header";
 @import "components/pages/footer";
@@ -20,3 +21,4 @@
 @import "components/pages/comments";
 @import "components/pages/archive-team";
 @import "components/pages/sale-content";
+@import "components/pages/fbi";
