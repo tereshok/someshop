@@ -18716,5 +18716,12 @@ ol.commentlist ul.children {
   padding: 7px 0;
 }
 
+/* line 47, assets/styles/components/pages/_fbi.scss */
+
+.fbi-error {
+  text-align: center;
+  display: none;
+}
+
 
 /*# sourceMappingURL=main.css.map*/

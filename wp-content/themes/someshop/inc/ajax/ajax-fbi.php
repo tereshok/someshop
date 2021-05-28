@@ -11,8 +11,10 @@ function ajax_get_fbi_info(){
 		echo json_encode($err_info);
 		die();
 	}
-	$api_data = json_decode($api_raw_data, true);
-	foreach ($api_data['items'] as $key) : ?>
+	$api_data = json_decode($api_raw_data, true); ?>
+
+	<div class="fbi-item" value="<?php echo $api_data['total']; ?>"></div>
+	<?php foreach ($api_data['items'] as $key) : ?>
 	<div class="fbi-card col-lg-4 col-md-6 col-sm-12">
 		<a href="<?php echo $key['url']; ?>" target="_blank">
 			<h6><?php echo $key['title']; ?></h6>

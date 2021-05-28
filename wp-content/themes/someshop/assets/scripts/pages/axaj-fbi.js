@@ -2,7 +2,7 @@ $(document).ready(function (){
 	$('.fbi-offices-list select').select2();
 	$('.spinner-grow').hide();
 	$('.fbi-offices-list select').change(function () {
-		let depr_code = $(this).val();
+		var depr_code = $(this).val();
 		$.ajax({
 			url: themeVars.ajaxurl,
 			datatype: 'json',
@@ -22,7 +22,7 @@ $(document).ready(function (){
 					$('.fbi-data').html(data);
 				} else {
 					let error_message = data.error;
-					$('.fbi-data').text(error_message).fadeIn(300);
+					$('.fbi-error').text(error_message).show();
 				}
 			},
 		});

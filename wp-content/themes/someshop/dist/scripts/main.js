@@ -7439,7 +7439,7 @@ module.exports = g;
           $('.fbi-data').html(data);
         } else {
           var error_message = data.error;
-          $('.fbi-data').text(error_message).fadeIn(300);
+          $('.fbi-error').text(error_message).show();
         }
       }
     });
