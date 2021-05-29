@@ -18723,5 +18723,37 @@ ol.commentlist ul.children {
   display: none;
 }
 
+/* line 52, assets/styles/components/pages/_fbi.scss */
+
+.fbi-pagination ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 56, assets/styles/components/pages/_fbi.scss */
+
+.fbi-pagination ul li {
+  background-color: #f0e9ff;
+  padding: 5px 13px;
+  border-radius: 50%;
+  margin: 7px;
+}
+
+/* line 62, assets/styles/components/pages/_fbi.scss */
+
+.fbi-pagination ul li:hover {
+  cursor: pointer;
+}
+
+/* line 66, assets/styles/components/pages/_fbi.scss */
+
+.fbi-pagination ul li span {
+  color: #666;
+}
+
 
 /*# sourceMappingURL=main.css.map*/

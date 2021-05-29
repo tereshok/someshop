@@ -27,8 +27,25 @@ $(document).ready(function (){
 			},
 		});
 	});
-	$('.fbi-pagination ul').on('click', 'li', function () {
-		console.log($(this).text());
+	$('.fbi-data').on('click', '.fbi-pagination li', function () {
+		var page_numb = $(this).text();
+		$.ajax({
+			url: themeVars.ajaxurl,
+			type: 'GET',
+				data: { action: 'get_fbi_info',
+				depr_code: $('.fbi-offices-list select').val(),
+				page_numb: page_numb,
+			},
+			beforeSend: () => {
+				$('.spinner-grow').show();
+				$('.fbi-data').hide();
+			},
+			success: function (data) {
+				$('.spinner-grow').hide();
+				$('.fbi-data').show();
+				$('.fbi-data').html(data);
+			},
+		});
 	});
 });
 

@@ -1,7 +1,8 @@
 <?php
 function ajax_get_fbi_info(){
 	$depr_code = $_GET['depr_code'];
-	$api_url = 'https://api.fbi.gov/wanted/v1/list?pageSize=12&field_offices=' . $depr_code;
+	$page_numb = $_GET['page_numb'];
+	$api_url = 'https://api.fbi.gov/wanted/v1/list?pageSize=12&field_offices=' . $depr_code . '&page=' . $page_numb;
 	$api_raw_data = file_get_contents($api_url);
 	if(empty($api_raw_data)){
 		$err_info = [

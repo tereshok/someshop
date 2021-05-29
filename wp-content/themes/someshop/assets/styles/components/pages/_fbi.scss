@@ -48,3 +48,23 @@
   text-align: center;
   display: none;
 }
+
+.fbi-pagination ul {
+  display: flex;
+  justify-content: center;
+
+  li {
+    background-color: $widget_item;
+    padding: 5px 13px;
+    border-radius: 50%;
+    margin: 7px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    span {
+      color: $font_grey;
+    }
+  }
+}
