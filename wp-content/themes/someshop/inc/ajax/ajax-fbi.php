@@ -30,7 +30,7 @@ function ajax_get_fbi_info(){
 	<div class="fbi-pagination col-lg-12">
 		<ul>
 			<?php for ($i = 1; $i <= $page_numb; $i++) : ?>
-				<li><span><?php echo $i; ?></span></li>
+				<li class="<?php if($i == 1) echo 'fbi-active'?>"><span><?php echo $i; ?></span></li>
 			<?php endfor; ?>
 		</ul>
 	</div>
