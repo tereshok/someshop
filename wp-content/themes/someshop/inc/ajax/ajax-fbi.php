@@ -40,4 +40,3 @@ function ajax_get_fbi_info(){
 }
 add_action('wp_ajax_get_fbi_info', 'ajax_get_fbi_info');
 add_action('wp_ajax_nopriv_get_fbi_info', 'ajax_get_fbi_info');
-
