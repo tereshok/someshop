@@ -18755,5 +18755,17 @@ ol.commentlist ul.children {
   color: #666;
 }
 
+/* line 72, assets/styles/components/pages/_fbi.scss */
+
+.fbi-active {
+  background-color: #ff0956 !important;
+}
+
+/* line 75, assets/styles/components/pages/_fbi.scss */
+
+.fbi-active span {
+  color: #fff !important;
+}
+
 
 /*# sourceMappingURL=main.css.map*/

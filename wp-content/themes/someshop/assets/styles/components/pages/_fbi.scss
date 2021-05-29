@@ -68,3 +68,11 @@
     }
   }
 }
+
+.fbi-active {
+  background-color: $item_color !important;
+
+  span {
+    color: $font_white !important;
+  }
+}

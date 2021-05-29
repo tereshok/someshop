@@ -25,12 +25,12 @@ function ajax_get_fbi_info(){
 	</div>
 	<?php endforeach;
 	if ($api_data['total'] > 12) {
-		$page_numb = ceil($api_data['total'] / 12);
+		$page_tot = ceil($api_data['total'] / 12);
 	?>
 	<div class="fbi-pagination col-lg-12">
 		<ul>
-			<?php for ($i = 1; $i <= $page_numb; $i++) : ?>
-				<li class="<?php if($i == 1) echo 'fbi-active'?>"><span><?php echo $i; ?></span></li>
+			<?php for ($i = 1; $i <= $page_tot; $i++) : ?>
+				<li <?php if(($i == $page_numb) || ($i == 1 && $page_numb == null)) echo 'class="fbi-active"'?>><span><?php echo $i; ?></span></li>
 			<?php endfor; ?>
 		</ul>
 	</div>

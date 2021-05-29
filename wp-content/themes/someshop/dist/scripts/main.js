@@ -7462,6 +7462,9 @@ module.exports = g;
         $('.spinner-grow').hide();
         $('.fbi-data').show();
         $('.fbi-data').html(data);
+        $('html, body').animate({
+          scrollTop: $('.fbi-data').offset().top
+        }, 1000);
       }
     });
   });
