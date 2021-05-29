@@ -7444,6 +7444,9 @@ module.exports = g;
       }
     });
   });
+  $('.fbi-pagination ul').on('click', 'li', function () {
+    console.log($(this).text());
+  });
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 

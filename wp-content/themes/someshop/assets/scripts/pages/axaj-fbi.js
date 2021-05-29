@@ -27,4 +27,8 @@ $(document).ready(function (){
 			},
 		});
 	});
+	$('.fbi-pagination ul').on('click', 'li', function () {
+		console.log($(this).text());
+	});
 });
+

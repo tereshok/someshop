@@ -13,7 +13,6 @@ function ajax_get_fbi_info(){
 	}
 	$api_data = json_decode($api_raw_data, true); ?>
 
-	<div class="fbi-item" value="<?php echo $api_data['total']; ?>"></div>
 	<?php foreach ($api_data['items'] as $key) : ?>
 	<div class="fbi-card col-lg-4 col-md-6 col-sm-12">
 		<a href="<?php echo $key['url']; ?>" target="_blank">
@@ -24,7 +23,18 @@ function ajax_get_fbi_info(){
 		<div class="fbi-card-desc"><?php echo $key['description']; ?></div>
 	</div>
 	<?php endforeach;
-
+	if ($api_data['total'] > 12) {
+		$page_numb = ceil($api_data['total'] / 12);
+	?>
+	<div class="fbi-pagination col-lg-12">
+		<ul>
+			<?php for ($i = 1; $i <= $page_numb; $i++) : ?>
+				<li><span><?php echo $i; ?></span></li>
+			<?php endfor; ?>
+		</ul>
+	</div>
+	<?php
+	}
 	die();
 }
 add_action('wp_ajax_get_fbi_info', 'ajax_get_fbi_info');
