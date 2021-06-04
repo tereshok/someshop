@@ -1,0 +1,4 @@
+2021-06-01T16:41:22+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in W:\domains\someshop.loc\wp-content\plugins\sitepress-multilingual-cms\vendor\otgs\installer\includes\support\class-otgs-installer-support-hooks.php on line 43
+
+2021-06-01T16:41:23+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in W:\domains\someshop.loc\wp-admin\includes\screen.php on line 242
+
