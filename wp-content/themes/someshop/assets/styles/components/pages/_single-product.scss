@@ -72,3 +72,26 @@
     border-radius: 50px !important;
   }
 }
+
+// Gallery
+
+.woocommerce-product-gallery {
+  .woocommerce-product-gallery__image {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  ol {
+    display: flex;
+    margin: 10px 0 0 !important;
+
+    li {
+      margin: 0 10px 0 0 !important;
+    }
+  }
+}
+
+.prod_gallery {
+  display: flex;
+  justify-content: center;
+}

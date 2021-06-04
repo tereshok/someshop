@@ -1,0 +1,22 @@
+2021-06-04T20:07:35+00:00 CRITICAL Uncaught Error: Call to undefined function get_gallery_image_ids() in W:\domains\someshop.loc\wp-content\themes\someshop\woocommerce\single-product\product-thumbnails.php:26
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 W:\domains\someshop.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1491): wc_get_template()
+#2 W:\domains\someshop.loc\wp-includes\class-wp-hook.php(292): woocommerce_show_product_thumbnails()
+#3 W:\domains\someshop.loc\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters()
+#4 W:\domains\someshop.loc\wp-includes\plugin.php(484): WP_Hook->do_action()
+#5 W:\domains\someshop.loc\wp-content\themes\someshop\woocommerce\single-product\product-image.php(27): do_action()
+#6 W:\domains\someshop.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('W:\\domains\\some...')
+#7 W:\domains\someshop.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1482): wc_ge in W:\domains\someshop.loc\wp-content\themes\someshop\woocommerce\single-product\product-thumbnails.php on line 26
+
+2021-06-04T20:07:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_gallery_image_ids() in W:\domains\someshop.loc\wp-content\themes\someshop\woocommerce\single-product\product-thumbnails.php:26
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 W:\domains\someshop.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1491): wc_get_template()
+#2 W:\domains\someshop.loc\wp-includes\class-wp-hook.php(292): woocommerce_show_product_thumbnails()
+#3 W:\domains\someshop.loc\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters()
+#4 W:\domains\someshop.loc\wp-includes\plugin.php(484): WP_Hook->do_action()
+#5 W:\domains\someshop.loc\wp-content\themes\someshop\woocommerce\single-product\product-image.php(27): do_action()
+#6 W:\domains\someshop.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('W:\\domains\\some...')
+#7 W:\domains\someshop.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1482): wc_ge in W:\domains\someshop.loc\wp-content\themes\someshop\woocommerce\single-product\product-thumbnails.php on line 26
+
