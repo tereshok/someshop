@@ -19034,7 +19034,7 @@ ol.commentlist ul.children {
 /* line 15, assets/styles/components/pages/_mini-cart.scss */
 
 .prod-cart-body {
-  position: absolute;
+  position: fixed;
   z-index: 97;
   top: 0;
   right: 0;
@@ -19050,7 +19050,7 @@ ol.commentlist ul.children {
 .prod-cart-body .cart-body-close {
   position: absolute;
   z-index: 98;
-  top: 10px;
+  top: 35px;
   right: 10px;
   cursor: pointer;
 }

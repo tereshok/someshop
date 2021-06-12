@@ -23,3 +23,15 @@
       
       <?php
     }
+
+
+    add_filter( 'woocommerce_product_tabs', 'woo_custom_description_tab', 98 );
+    function woo_custom_description_tab( $tabs ) {
+     $test = $tabs['reviews']['callback'];
+      return $tabs;
+    }
+    
+    function woo_custom_description_tab_content() {
+      echo '<h2>Custom Description</h2>';
+      echo '<p>Here\'s a custom description</p>';
+    }  
