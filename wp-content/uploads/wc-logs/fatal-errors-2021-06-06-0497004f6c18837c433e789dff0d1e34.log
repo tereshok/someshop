@@ -1,0 +1,337 @@
+2021-06-06T20:03:25+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:03:26+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:03:31+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:03:53+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:04:15+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:04:31+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:04:32+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:04:36+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:04:37+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:04:37+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:04:59+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:05:14+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:05:15+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:05:21+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:05:43+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:05:59+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:06:01+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:06:49+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-cron.php(44): require_once('W:\\domains\\some...')
+#6 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:06:53+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:06:54+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:06:59+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:5
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-admin\admin-ajax.php(22): require_once('W:\\domains\\some...')
+#6 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:20:35+00:00 CRITICAL require_once(): Failed opening required 'W:\domains\someshop.loc/wp-content/themes/someshop/inc/hooks/woocommerce/global/price.php' (include_path='.') in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php on line 4
+
+2021-06-06T20:28:43+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-admin\admin-ajax.php(22): require_once('W:\\domains\\some...')
+#6 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:28:44+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:28:46+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:28:52+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-admin\admin.php(34): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\wp-admin\post.php(12): require_once('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:28:56+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:29:06+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php:4
+Stack trace:
+#0 W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php(3): require_once()
+#1 W:\domains\someshop.loc\wp-content\themes\someshop\functions.php(12): require_once('W:\\domains\\some...')
+#2 W:\domains\someshop.loc\wp-settings.php(528): include('W:\\domains\\some...')
+#3 W:\domains\someshop.loc\wp-config.php(95): require_once('W:\\domains\\some...')
+#4 W:\domains\someshop.loc\wp-load.php(37): require_once('W:\\domains\\some...')
+#5 W:\domains\someshop.loc\wp-blog-header.php(13): require_once('W:\\domains\\some...')
+#6 W:\domains\someshop.loc\index.php(17): require('W:\\domains\\some...')
+#7 {main}
+  thrown in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 4
+
+2021-06-06T20:35:52+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\single-product\tabs.php on line 5
+
+2021-06-06T20:48:29+00:00 CRITICAL require_once(): Failed opening required 'W:\domains\someshop.loc/wp-content/themes/someshop/inc/hooks/woocommerce/single-product/tabs.php' (include_path='.') in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php on line 3
+
+2021-06-06T20:48:34+00:00 CRITICAL require_once(): Failed opening required 'W:\domains\someshop.loc/wp-content/themes/someshop/inc/hooks/woocommerce/single-product/tabs.php' (include_path='.') in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php on line 3
+
+2021-06-06T20:49:06+00:00 CRITICAL require_once(): Failed opening required 'W:\domains\someshop.loc/wp-content/themes/someshop/inc/hooks/woocommerce/single-product/tabs.php' (include_path='.') in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php on line 3
+
+2021-06-06T20:49:06+00:00 CRITICAL require_once(): Failed opening required 'W:\domains\someshop.loc/wp-content/themes/someshop/inc/hooks/woocommerce/single-product/tabs.php' (include_path='.') in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php on line 3
+
+2021-06-06T20:49:11+00:00 CRITICAL require_once(): Failed opening required 'W:\domains\someshop.loc/wp-content/themes/someshop/inc/hooks/woocommerce/single-product/tabs.php' (include_path='.') in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php on line 3
+
+2021-06-06T20:49:19+00:00 CRITICAL require_once(): Failed opening required 'W:\domains\someshop.loc/wp-content/themes/someshop/inc/hooks/woocommerce/single-product/tabs.php' (include_path='.') in W:\domains\someshop.loc\wp-content\themes\someshop\inc\hooks\woocommerce\woocommerce_init.php on line 3
+

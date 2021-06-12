@@ -16,18 +16,18 @@
 }
 
 .fbi-data {
-  justify-content: space-between;
+  justify-content: center;
 
   .fbi-card {
-    margin: 15px 0;
-    max-width: 370px;
+    margin: 15px 5px;
+    max-width: 360px;
     height: 350px;
     text-align: center;
     box-shadow: 0 10px 20px 0 #dddddd5c;
     overflow: hidden;
 
     h6 {
-      color: $font_grey;
+      color: $font_dgrey;
       font-weight: 600;
       padding: 5px 0;
     }
@@ -38,15 +38,18 @@
 
     .fbi-card-rew {
       font-style: italic;
-      color: $font_grey;
+      color: $font_dgrey;
       padding: 7px 0;
     }
   }
 }
 
-.fbi-error {
-  text-align: center;
-  display: none;
+.fbi-err {
+  font-size: 28px;
+  font-weight: 700;
+  color: $item_color;
+  padding: 40px 0;
+  margin: 0 auto;
 }
 
 .fbi-pagination ul {
@@ -64,7 +67,7 @@
     }
 
     span {
-      color: $font_grey;
+      color: $font_dgrey;
     }
   }
 }

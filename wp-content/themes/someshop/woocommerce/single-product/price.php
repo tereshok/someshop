@@ -20,6 +20,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $product;
-
+	
 ?>
 <h2 class="single_price <?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) ); ?>"><?php echo $product->get_price_html(); ?></h2>

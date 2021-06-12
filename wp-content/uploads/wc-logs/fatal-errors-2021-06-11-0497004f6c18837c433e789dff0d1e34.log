@@ -1,0 +1,4 @@
+2021-06-11T14:13:50+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in W:\domains\someshop.loc\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor-exclude-post-types.php on line 3
+
+2021-06-11T14:13:53+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in W:\domains\someshop.loc\wp-includes\wp-db.php on line 2056
+

@@ -72,9 +72,6 @@ get_header();
 	</div>
 	<div class="fbi-data row" >
 	</div>
-	<div class="fbi-error">
-		<p class="text-danger">No have a data!</p>
-	</div>
 </div>
 
 

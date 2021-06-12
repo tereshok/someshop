@@ -11,5 +11,11 @@ if( function_exists('acf_options_page') ) {
     'redirect'      => false
   ]);
 
+  acf_add_options_sub_page([
+		'page_title' 	=> 'Woocommerce tabs',
+		'menu_title'	=> 'WooTabs',
+		'parent_slug'	=> 'theme-settings',
+  ]);
+
   add_action('acf/init', 'acf_options_page');
 }

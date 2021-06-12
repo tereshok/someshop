@@ -39,14 +39,34 @@
   box-shadow: 0 10px 20px 0 #dddddd5c;
 
   .blog_category {
-    color: $font_grey;
+    color: $font_dgrey;
 
     a {
-      color: $font_grey;
+      color: $font_dgrey;
 
       &:hover {
         color: $item_color;
       }
     }
+  }
+}
+
+.pagination {
+  justify-content: center;
+  font-size: 28px;
+
+  a,
+  .next,
+  .prev {
+    color: $font_dgrey;
+  }
+
+  .current {
+    color: $item_color;
+  }
+
+  .nav-links a:hover {
+    text-decoration: none;
+    color: $item_color;
   }
 }

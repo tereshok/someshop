@@ -25,7 +25,7 @@
     padding: 15px 0;
 
     a {
-      color: $font_grey;
+      color: $font_dgrey;
 
       &:hover {
         text-decoration: none;
@@ -44,7 +44,7 @@
   height: 50px;
   border: 1px solid $widget_item;
   font-size: 13px;
-  color: $font_grey;
+  color: $font_dgrey;
   padding: 0 0 0 20px;
 }
 
@@ -60,7 +60,7 @@
 .widget_tag_cloud .tagcloud a {
   border: 1px solid $widget_item;
   background: $font_white;
-  color: $font_grey;
+  color: $font_dgrey;
   padding: 4px 20px;
   font-size: 13px !important;
 

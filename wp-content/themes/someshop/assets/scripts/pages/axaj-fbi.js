@@ -16,19 +16,17 @@ $(document).ready(function (){
 				$('.fbi-data').hide();
 			},
 			success: function (data) {
-				if(data != ''){
 					$('.spinner-grow').hide();
 					$('.fbi-data').show();
 					$('.fbi-data').html(data);
-				} else {
-					let error_message = data.error;
-					$('.fbi-error').text(error_message).show();
-				}
 			},
 		});
 	});
 	$('.fbi-data').on('click', '.fbi-pagination li', function () {
 		var page_numb = $(this).text();
+		if ($(this).hasClass('fbi-active')) {
+			return '';
+		}
 		$.ajax({
 			url: themeVars.ajaxurl,
 			type: 'GET',

@@ -3,7 +3,7 @@
 .team-department,
 .team-location,
 .all-team a {
-  color: $font_grey;
+  color: $font_dgrey;
   padding: 7px 15px;
 
   &:hover {
@@ -55,17 +55,17 @@
 
     &:hover {
       text-decoration: none;
-      color: $font_grey;
+      color: $font_dgrey;
     }
   }
 
   .member-position {
-    color: $font_grey;
+    color: $font_dgrey;
   }
 
   .member-department,
   .member-location {
-    color: $font_grey;
+    color: $font_dgrey;
     font-size: 14px;
     font-style: italic;
   }

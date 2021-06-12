@@ -4,15 +4,13 @@ function ajax_get_fbi_info(){
 	$page_numb = $_GET['page_numb'];
 	$api_url = 'https://api.fbi.gov/wanted/v1/list?pageSize=12&field_offices=' . $depr_code . '&page=' . $page_numb;
 	$api_raw_data = file_get_contents($api_url);
-	if(empty($api_raw_data)){
-		$err_info = [
-			'status' => 'error',
-			'error' => _e('We have some problem', 'someshop'),
-		];
-		echo json_encode($err_info);
+	$api_data = json_decode($api_raw_data, true); 
+
+	if($api_data['total'] == 0){
+		echo '<div class="fbi-err">Department is not a found!</div>';
 		die();
 	}
-	$api_data = json_decode($api_raw_data, true); ?>
+	?>
 
 	<?php foreach ($api_data['items'] as $key) : ?>
 	<div class="fbi-card col-lg-4 col-md-6 col-sm-12">
@@ -38,5 +36,6 @@ function ajax_get_fbi_info(){
 	}
 	die();
 }
+
 add_action('wp_ajax_get_fbi_info', 'ajax_get_fbi_info');
 add_action('wp_ajax_nopriv_get_fbi_info', 'ajax_get_fbi_info');

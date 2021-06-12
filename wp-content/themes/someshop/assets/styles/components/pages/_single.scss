@@ -9,10 +9,10 @@
   }
 
   .single_category {
-    color: $font_grey;
+    color: $font_dgrey;
 
     a {
-      color: $font_grey;
+      color: $font_dgrey;
 
       &:hover {
         color: $item_color;
@@ -22,14 +22,14 @@
   }
 
   .single_tags {
-    color: $font_grey;
+    color: $font_dgrey;
     padding-top: 15px;
     border-top: 1px solid $widget_item;
 
     a {
       border: 1px solid $widget_item;
       background: $font_white;
-      color: $font_grey;
+      color: $font_dgrey;
       padding: 4px 20px;
       font-size: 13px !important;
 

@@ -14,7 +14,7 @@
   }
 
   a {
-    color: $font_grey;
+    color: $font_dgrey;
 
     &:hover {
       color: $item_color;
@@ -31,7 +31,7 @@
     display: inline-flex;
 
     a {
-      color: $font_grey;
+      color: $font_dgrey;
       padding: 5px 11px;
 
       &:hover {

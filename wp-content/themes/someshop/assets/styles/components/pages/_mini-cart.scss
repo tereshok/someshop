@@ -1,0 +1,40 @@
+@import "../systems/variables";
+
+.prod-cart {
+  position: relative;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.prod-cart-body {
+  position: absolute;
+  z-index: 97;
+  top: 0;
+  right: 0;
+  background-color: $widget_bg;
+  width: 420px;
+  height: 100vh;
+  box-shadow: -2px 0 18px 2px #aaa;
+
+  .cart-body-close {
+    position: absolute;
+    z-index: 98;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .cart-body-main {
+    padding: 35px 0;
+
+    p {
+      text-align: center;
+    }
+  }
+}

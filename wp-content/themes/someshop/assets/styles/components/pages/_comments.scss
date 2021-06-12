@@ -14,7 +14,7 @@ ol.commentlist {
   padding: 10px;
 
   .fn {
-    color: $font_grey;
+    color: $font_dgrey;
     font-weight: 600;
 
     a {
@@ -24,7 +24,7 @@ ol.commentlist {
   }
 
   .commentmetadata a {
-    color: $font_grey;
+    color: $font_dgrey;
   }
 
   .reply a {
@@ -36,7 +36,7 @@ ol.commentlist {
 }
 
 .logged-in-as a {
-  color: $font_grey;
+  color: $font_dgrey;
 }
 
 .form-submit {
@@ -55,13 +55,13 @@ ol.commentlist {
 
   label {
     padding: 5px 0;
-    color: $font_grey;
+    color: $font_dgrey;
   }
 }
 
 .nocomments {
   padding: 5px 0;
-  color: $font_grey;
+  color: $font_dgrey;
   font-weight: 600;
 }
 
