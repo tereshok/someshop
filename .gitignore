@@ -3,3 +3,4 @@ wp-content/plugins/wp-migrate-db-pro/
 wp-content/cache
 wp-content/uploads/cache
 git-deploy
+*.log
