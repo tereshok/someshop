@@ -17657,6 +17657,29 @@ i {
   margin: 10px 0;
 }
 
+/* line 101, assets/styles/components/pages/_header.scss */
+
+.wishlist {
+  padding: 0 5px;
+}
+
+/* line 104, assets/styles/components/pages/_header.scss */
+
+.wishlist a {
+  color: #000;
+}
+
+/* line 109, assets/styles/components/pages/_header.scss */
+
+.second_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 /* line 3, assets/styles/components/pages/_footer.scss */
 
 .footer_widget {
@@ -19013,6 +19036,21 @@ ol.commentlist ul.children {
   font-weight: 600;
 }
 
+/* line 159, assets/styles/components/pages/_single-product.scss */
+
+.add_to_wishlist,
+.compare {
+  color: #ff0956;
+}
+
+/* line 163, assets/styles/components/pages/_single-product.scss */
+
+.add_to_wishlist:hover,
+.compare:hover {
+  text-decoration: none;
+  color: #adadad;
+}
+
 /* line 3, assets/styles/components/pages/_mini-cart.scss */
 
 .prod-cart {
@@ -19065,6 +19103,203 @@ ol.commentlist ul.children {
 
 .prod-cart-body .cart-body-main p {
   text-align: center;
+}
+
+/* line 3, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+}
+
+/* line 7, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/* line 13, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table th {
+  border: none;
+}
+
+/* line 17, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table thead {
+  background-color: #adadad;
+}
+
+/* line 22, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.wishlist_table tr th.product-thumbnail {
+  width: auto;
+}
+
+/* line 26, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.wishlist-items-wrapper tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px dotted #adadad;
+}
+
+/* line 32, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.wishlist-items-wrapper tr:hover {
+  background-color: bisque;
+}
+
+/* line 37, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table td {
+  border: none;
+}
+
+/* line 40, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table td a {
+  color: #ff0956;
+  font-weight: 600;
+}
+
+/* line 44, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table td a:hover {
+  text-decoration: none;
+}
+
+/* line 49, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table td .remove_from_wishlist {
+  color: #fff;
+  background-color: #ff0956;
+}
+
+/* line 53, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table td .remove_from_wishlist:hover {
+  color: #666;
+  background-color: #adadad;
+}
+
+/* line 59, assets/styles/components/pages/woocommerce/_wishlist.scss */
+
+.woocommerce table.shop_table td .woocommerce-Price-amount {
+  color: #666;
+  font-weight: 600;
+}
+
+/* line 3, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.main_product {
+  margin: 15px auto;
+}
+
+/* line 7, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row {
+  width: 900px;
+  padding: 70px 0 40px 0;
+}
+
+/* line 11, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .prod_cart {
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 20px 0;
+}
+
+/* line 16, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .prod_cart:hover {
+  -webkit-box-shadow: 0 10px 20px 0 #eee;
+          box-shadow: 0 10px 20px 0 #eee;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+/* line 22, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row a {
+  color: #000;
+}
+
+/* line 25, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row a:hover {
+  text-decoration: none;
+}
+
+/* line 30, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .prod_title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* line 35, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .prod_price {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+/* line 41, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .prod_old_price {
+  text-decoration: line-through;
+  padding: 0 5px 0 0;
+}
+
+/* line 46, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .prod_new_price {
+  font-weight: 600;
+  color: #22b544;
+}
+
+/* line 51, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .onsale {
+  background-color: #ff0956 !important;
+  border-radius: 5px !important;
+  padding: 4px 7px !important;
+}
+
+/* line 57, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .add_to_cart_button,
+.product_list_row .product_type_external {
+  background-color: #ff0956 !important;
+  color: #fff !important;
+}
+
+/* line 62, assets/styles/components/pages/woocommerce/_archive.scss */
+
+.product_list_row .add_to_cart_button:hover,
+.product_list_row .product_type_external:hover {
+  background-color: #adadad !important;
+  color: #666 !important;
 }
 
 

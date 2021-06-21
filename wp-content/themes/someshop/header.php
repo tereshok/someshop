@@ -34,30 +34,31 @@
 			  ]);
 			  ?>
 		  </nav>
-			  <?php
-			  wp_nav_menu([
-					  'theme_location'    => 'top_menu',
-					  'menu_class'		  => '',
-			  ]);
-			  ?>
-				<span class="prod-cart">
-					<i class="fa fa-shopping-basket" aria-hidden="true">
-						</i>
-				</span>
-					<div class="prod-cart-body hide">
-						<span class="cart-body-close">
-							<i class="fa fa-times" aria-hidden="true"></i>
-						</span>
-						<div class="cart-body-main">
-							<?php 
-								ob_start();
-								woocommerce_mini_cart(); 
-								$mini_cart = ob_get_contents();
-								ob_end_clean();
-								echo $mini_cart;
-							?>
+			<div class="second_nav">
+					<?php
+					wp_nav_menu([
+							'theme_location'  => 'top_menu',
+							'menu_class'		  => '',
+					]);
+					?>
+					<span class="wishlist">
+						<a href="<?php the_permalink('702');?>">
+							<i class="fa fa-heart-o" aria-hidden="true"></i>
+						</a>
+					</span>
+					<span class="prod-cart">
+						<i class="fa fa-shopping-basket" aria-hidden="true">
+							</i>
+					</span>
+						<div class="prod-cart-body hide">
+							<span class="cart-body-close">
+								<i class="fa fa-times" aria-hidden="true"></i>
+							</span>
+							<div class="cart-body-main">
+								<?php woocommerce_mini_cart(); ?>
+							</div>
 						</div>
-					</div>
+			</div>
 	  </div>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 header_title">

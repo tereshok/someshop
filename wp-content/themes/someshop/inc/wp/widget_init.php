@@ -12,6 +12,16 @@ function widgets(){
   ]);
 
   register_sidebar([
+    'name'          => 'Shop sidebar',
+    'id'            => 'shop-sidebar',
+    'description'   => 'Show shop sidebar',
+    'before_widget' => '<div class="widget %2$s">',
+    'after_widget'  => "</div>\n",
+    'before_title'  => '<h2 class="widgettitle">',
+    'after_title'   => '</h2>'
+  ]);
+
+  register_sidebar([
     'name'          => 'First footer widget',
     'id'            => 'widget-footer-first',
     'description'   => 'Show first footer widget',

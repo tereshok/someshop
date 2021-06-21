@@ -155,3 +155,13 @@
   border-radius: 5px;
   font-weight: 600;
 }
+
+.add_to_wishlist,
+.compare {
+  color: $item_color;
+
+  &:hover {
+    text-decoration: none;
+    color: $font_wgrey;
+  }
+}

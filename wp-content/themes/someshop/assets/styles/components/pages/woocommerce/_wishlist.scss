@@ -1,0 +1,63 @@
+@import "../../systems/variables";
+
+.woocommerce table.shop_table {
+  flex-direction: column;
+  padding: 0;
+
+  tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  th {
+    border: none;
+  }
+
+  thead {
+    background-color: $font_wgrey;
+  }
+}
+
+.wishlist_table tr th.product-thumbnail {
+  width: auto;
+}
+
+.wishlist-items-wrapper tr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px dotted $font_wgrey;
+
+  &:hover {
+    background-color: bisque;
+  }
+}
+
+.woocommerce table.shop_table td {
+  border: none;
+
+  a {
+    color: $item_color;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .remove_from_wishlist {
+    color: $font_white;
+    background-color: $item_color;
+
+    &:hover {
+      color: $font_dgrey;
+      background-color: $font_wgrey;
+    }
+  }
+
+  .woocommerce-Price-amount {
+    color: $font_dgrey;
+    font-weight: 600;
+  }
+}

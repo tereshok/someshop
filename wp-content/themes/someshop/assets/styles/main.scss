@@ -1,9 +1,13 @@
+//system
 @import "components/systems/reset";
 @import "components/systems/normalize";
+//plugins
 @import "~bootstrap/scss/bootstrap";
 @import "~font-awesome/scss/font-awesome";
 @import "~select2/dist/css/select2.min.css";
+//fonts
 @import "components/fonts/fonts";
+//pages
 @import "components/pages/header";
 @import "components/pages/footer";
 @import "components/pages/search";
@@ -24,3 +28,7 @@
 @import "components/pages/fbi";
 @import "components/pages/single-product";
 @import "components/pages/mini-cart";
+//woocommerce
+@import "components/pages/woocommerce/wishlist";
+@import "components/pages/woocommerce/compare";
+@import "components/pages/woocommerce/archive";

@@ -97,3 +97,16 @@
 .menu-top-menueng-container {
   margin: 10px 0;
 }
+
+.wishlist {
+  padding: 0 5px;
+
+  a {
+    color: $font_dark;
+  }
+}
+
+.second_nav {
+  display: flex;
+  align-items: baseline;
+}
