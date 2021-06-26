@@ -1,0 +1,42 @@
+@import "../../systems/variables";
+
+.yith-wcan-filters .yith-wcan-filter h4 {
+  color: $font_dgrey;
+  font-weight: 600;
+  border-bottom: 1px solid $item_color;
+  padding: 0 0 5px 0;
+}
+
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item > a:hover,
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item > label > a:hover {
+  color: $item_color;
+}
+
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item.active > a,
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item.active > label > a {
+  color: $item_color;
+}
+
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item.color .term-color:hover {
+  border-color: $item_color;
+}
+
+.yith-wcan-reset-filters {
+  color: $font_white;
+  background-color: $item_color;
+  border-color: $item_color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $font_dgrey;
+    border-color: $font_dgrey;
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: $font_dgrey;
+  border-color: $font_dgrey;
+}

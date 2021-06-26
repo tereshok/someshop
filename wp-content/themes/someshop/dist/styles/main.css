@@ -19302,5 +19302,60 @@ ol.commentlist ul.children {
   color: #666 !important;
 }
 
+/* line 3, assets/styles/components/pages/woocommerce/_sidebar.scss */
+
+.yith-wcan-filters .yith-wcan-filter h4 {
+  color: #666;
+  font-weight: 600;
+  border-bottom: 1px solid #ff0956;
+  padding: 0 0 5px 0;
+}
+
+/* line 10, assets/styles/components/pages/woocommerce/_sidebar.scss */
+
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item > a:hover,
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item > label > a:hover {
+  color: #ff0956;
+}
+
+/* line 15, assets/styles/components/pages/woocommerce/_sidebar.scss */
+
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item.active > a,
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item.active > label > a {
+  color: #ff0956;
+}
+
+/* line 20, assets/styles/components/pages/woocommerce/_sidebar.scss */
+
+.yith-wcan-filters .yith-wcan-filter .filter-items .filter-item.color .term-color:hover {
+  border-color: #ff0956;
+}
+
+/* line 24, assets/styles/components/pages/woocommerce/_sidebar.scss */
+
+.yith-wcan-reset-filters {
+  color: #fff;
+  background-color: #ff0956;
+  border-color: #ff0956;
+}
+
+/* line 29, assets/styles/components/pages/woocommerce/_sidebar.scss */
+
+.yith-wcan-reset-filters:hover,
+.yith-wcan-reset-filters:focus,
+.yith-wcan-reset-filters:active {
+  background-color: #666;
+  border-color: #666;
+}
+
+/* line 37, assets/styles/components/pages/woocommerce/_sidebar.scss */
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #666;
+  border-color: #666;
+}
+
 
 /*# sourceMappingURL=main.css.map*/
