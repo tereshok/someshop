@@ -1,2 +1,0 @@
-2021-06-08T17:39:06+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 32768 bytes) in W:\domains\someshop.loc\wp-content\plugins\sitepress-multilingual-cms\lib\mobile-detect.php on line 478
-
