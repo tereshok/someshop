@@ -1,0 +1,83 @@
+@import "../../../systems/variables";
+
+.register_block {
+  background: linear-gradient(27deg, rgba(255, 0, 90, 1) 0%, rgba(255, 93, 45, 1) 64%, rgba(255, 186, 0, 1) 100%);
+  color: $font_white;
+
+  .woocommerce-form-register {
+    border: none !important;
+  }
+
+  .woocommerce-Input--text {
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+  }
+
+  .woocommerce-privacy-policy-text a {
+    color: $font_white;
+    font-weight: 500;
+  }
+
+  .woocommerce-form-register__submit {
+    background-color: $widget_bg !important;
+    color: $item_color !important;
+
+    &:hover {
+      background-color: $font_wgrey !important;
+      color: $font_dark !important;
+    }
+  }
+}
+
+.register_title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: $font_white;
+}
+
+.login_block {
+  background-color: $widget_bg;
+
+  .woocommerce-form-login {
+    border: none !important;
+
+    .show-password-input {
+      right: 0.5em !important;
+      top: 0.18em !important;
+    }
+  }
+
+  .login_title,
+  .login_sub_title {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .woocommerce-form-login p,
+  .login_text {
+    color: #848691;
+  }
+
+  .login_button_block {
+    padding: 10px 0;
+  }
+
+  .login_button {
+    width: 100%;
+    text-transform: uppercase;
+    background-color: $item_color !important;
+    color: $font_white !important;
+    border-radius: 25px !important;
+    padding: 15px 0;
+  }
+
+  .lost_password {
+    padding: 10px 0 0 0;
+  }
+
+  .lost_password_block a {
+    color: #848691 !important;
+  }
+}

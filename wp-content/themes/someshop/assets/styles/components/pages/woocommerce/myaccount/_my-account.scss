@@ -1,0 +1,24 @@
+@import "../../../systems/variables";
+
+//dashboard
+.dashboard-p {
+  a {
+    color: $item_color;
+  }
+}
+
+//addresses
+.address-title {
+  color: $font_dgrey;
+}
+
+.woocommerce-Address-title a {
+  color: $item_color;
+  font-weight: 700;
+}
+
+//account details
+.show-password-input {
+  right: 0.5em !important;
+  top: 0.2em !important;
+}
