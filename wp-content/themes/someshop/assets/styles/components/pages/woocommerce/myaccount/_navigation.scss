@@ -1,0 +1,16 @@
+@import "../../../systems/variables";
+
+.woo-nav-item {
+  padding: 5px;
+  border-bottom: 1px solid $font_wgrey;
+
+  .woo-nav-link {
+    color: $item_color;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
+
+.woocommerce-MyAccount-navigation {
+  width: auto !important;
+}
